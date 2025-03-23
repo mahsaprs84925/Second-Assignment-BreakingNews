@@ -1,56 +1,57 @@
 # Project Title
 
-Simple overview of use/purpose.
+A simple Java-based news aggregator that fetches and displays the latest news articles from an online source.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Breaking News Aggregator is a **Java application** that retrieves news articles from **News API**. The program allows users to:
+- View a **list of the latest news articles**.
+- Select a **specific article** to see its details.
+- Handle invalid inputs gracefully.
+The project demonstrates the use of **Java HTTP requests**, **JSON parsing**, and **command-line interaction**.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+- **Java 23** (Required to compile and run the program)
+- **Gradle** (Used for dependency management)
+- **Git** (Version control)
+- **News API Key** (Required to fetch news)
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+1. Clone the Repository
+2. Obtain an API Key
+3. Install Dependencies
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+1. Compile the Code
+2. Run the Program
+3. A list of news articles will be displayed.
+4. Enter the number corresponding to an article to read more details.
+5. If an invalid input is entered, the program prompts the user again.
+
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+User Input Validation
+**Issue:** Users might enter invalid choices.
+**Solution:** Looped input validation to ensure proper selection.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+- Mahsa Pooresmaeil
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
+    * Initial Release with core features.
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
 ## Acknowledgments
 
@@ -60,3 +61,5 @@ Inspiration, code snippets, etc.
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* **News API** – For providing live news data.
+* **Gson Library** – Used for efficient JSON parsing.
